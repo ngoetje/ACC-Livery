@@ -12,12 +12,16 @@ https://www.youtube.com/watch?v=5rWCdsldUCw
 6. Activate "Texture Paint"
 7. "Texture Slots" menu on the right ("Draw") click + to add:
 ![314ea44bec474bc85789616e2efd925e.png](:/9054f2e60ac949febc2d624e9f406763)
+
 7.1 Base Color Paint Slot named "base" with 4096x4096 and a bright color
+
 7.2 Add another Base Color Paint Slot named "decals" with 4096x4096 and color's alpha = 0
+
 7.3 Add another Base Color Paint Slot named "sponsors" with 4096x4096 and color's alpha = 0
-8. On the Texture Map pane, move mouse to lower right corner. When cursor changes, pull up another pane.
-9. In the new Pane select "Shader Editor" (Shift+F3 or via menu in top left)
-10. In the Shader Editor:
+
+9. On the Texture Map pane, move mouse to lower right corner. When cursor changes, pull up another pane.
+10. In the new Pane select "Shader Editor" (Shift+F3 or via menu in top left)
+11. In the Shader Editor:
 10.1 Remove all connections
 10.2 Go to Add > Search > "Mix" to add Mix object
 10.3 Right click on header > Duplicate
@@ -81,32 +85,4 @@ The way I do it:
 10. Stencil should be in the same position as you positioned it before so that you can paint over the stencil once more 
 
 ## Misc Notes:
-Falloff: configures the edges of the brush[Skin with Blender](:/4d0e6533b6c4495f926cf5bb83cef220)
-
-id: 4d0e6533b6c4495f926cf5bb83cef220
-parent_id: b94eeab4ee324b93b73d85756efdf59a
-created_time: 2023-07-04T06:02:10.989Z
-updated_time: 2023-07-25T16:57:17.403Z
-is_conflict: 0
-latitude: 53.55108460
-longitude: 9.99368180
-altitude: 0.0000
-author: 
-source_url: 
-is_todo: 0
-todo_due: 0
-todo_completed: 0
-source: joplin-desktop
-source_application: net.cozic.joplin-desktop
-application_data: 
-order: 0
-user_created_time: 2023-07-04T06:02:10.989Z
-user_updated_time: 2023-07-25T16:57:17.403Z
-encryption_cipher_text: 
-encryption_applied: 0
-markup_language: 1
-is_shared: 0
-share_id: 
-conflict_original_id: 
-master_key_id: 
-type_: 1
+Falloff: configures the edges of the brush
